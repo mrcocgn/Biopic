@@ -4,7 +4,7 @@ function Main() {
     <section id="profil">
       <h2>Über mich</h2>
       <div class="profil-container">
-        <img src="../assets/img/avatar.jpg" alt="Profilbild von Marcos Ilgi" class="profilbild" />
+        <img src="avatar.jpg" alt="Profilbild von Marcos Ilgi" class="profilbild" />
         <div class="profiltext">
           <ul>
             <li><strong>Name:</strong> Marcos Ilgi</li>
