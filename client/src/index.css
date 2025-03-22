@@ -92,26 +92,20 @@ button:focus-visible {
   text-decoration: underline;
 }
 
-.language-switcher {
-  display: flex;
-  gap: 0.5rem;
-  align-items: center;
+.language-dropdown {
+  position: relative;
+  display: inline-block;
 }
 
-.flag-button {
-  background: transparent;
-  border: none;
+.language-dropdown select {
   font-size: 1.5rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 6px;
+  background: transparent;
+  border: 1px solid #ccc;
   cursor: pointer;
-  transition: transform 0.2s ease;
-  opacity: 0.5;
+  appearance: none;
+  text-align: center;
+  font-family: inherit;
 }
 
-.flag-button:hover {
-  transform: scale(1.1);
-  opacity: 0.8;
-}
-
-.flag-button.active {
-  opacity: 1;
-}

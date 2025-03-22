@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import { useState, useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import '../index.css';
 
 const languages = [
@@ -12,32 +12,31 @@ const languages = [
 
 export default function LanguageSwitcher() {
   const { i18n } = useTranslation();
-  const [activeLang, setActiveLang] = useState(i18n.language);
+  const [currentLang, setCurrentLang] = useState(i18n.language);
 
   useEffect(() => {
-    setActiveLang(i18n.language);
+    setCurrentLang(i18n.language);
   }, [i18n.language]);
 
-  const changeLanguage = (lng) => {
-    i18n.changeLanguage(lng);
-    setActiveLang(lng);
+  const handleChange = (e) => {
+    const selectedLang = e.target.value;
+    i18n.changeLanguage(selectedLang);
+    setCurrentLang(selectedLang);
   };
 
   return (
-    <div className="language-switcher">
-      {languages.map((lang) => (
-        <button
-          key={lang.code}
-          className={`flag-button ${activeLang === lang.code ? 'active' : ''}`}
-          onClick={() => changeLanguage(lang.code)}
-          aria-label={lang.code}
-        >
-          {lang.label}
-        </button>
-      ))}
+    <div className="language-dropdown">
+      <select value={currentLang} onChange={handleChange} aria-label="Sprache wählen">
+        {languages.map((lang) => (
+          <option key={lang.code} value={lang.code}>
+            {lang.label}
+          </option>
+        ))}
+      </select>
     </div>
   );
 }
+
 
 
 
