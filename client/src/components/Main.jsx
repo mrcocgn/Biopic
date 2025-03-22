@@ -64,16 +64,6 @@ function Main() {
         Technologie ist für mich Mittel zum Zweck. Der Zweck ist Wirkung.
       </p>
     </section>
-
-    <section id="subscribe">
-      <h2>Bleib in Kontakt</h2>
-      <p>Trag dich ein, um bei neuen Projekten informiert zu bleiben:</p>
-      <form id="subscribe-form">
-        <input type="email" id="email" placeholder="Deine E-Mail-Adresse" required />
-        <button type="submit">Abonnieren</button>
-        <p id="feedback"></p>
-      </form>
-    </section>
   </main>
      );
 }
