@@ -1,10 +1,12 @@
+import LanguageSwitcher from './LanguageSwitcher';
+
 function Header() {
-    return (
-        <header>
-            <h1>Marcos Ilgi</h1>
-            <p>Digital Creator & Strategist</p>
-        </header>
-    );
+  return (
+    <header style={{ padding: '1rem', display: 'flex', justifyContent: 'space-between' }}>
+      <h1>marcosilgi</h1>
+      <LanguageSwitcher />
+    </header>
+  );
 }
 
 export default Header;
