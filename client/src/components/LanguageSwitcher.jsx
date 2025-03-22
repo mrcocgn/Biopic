@@ -1,30 +1,43 @@
 import { useTranslation } from 'react-i18next';
 import { useState, useEffect } from 'react';
+import '../index.css';
+
+const languages = [
+  { code: 'en', label: '🇬🇧' },
+  { code: 'de', label: '🇩🇪' },
+  { code: 'tr', label: '🇹🇷' },
+  { code: 'es', label: '🇪🇸' },
+  { code: 'ar', label: '🇸🇦' }
+];
 
 export default function LanguageSwitcher() {
   const { i18n } = useTranslation();
-  const [currentLang, setCurrentLang] = useState(i18n.language);
+  const [activeLang, setActiveLang] = useState(i18n.language);
 
   useEffect(() => {
-    // Sync, wenn Sprache durch den Sprach-Detector gesetzt wurde
-    setCurrentLang(i18n.language);
+    setActiveLang(i18n.language);
   }, [i18n.language]);
 
-  const handleChange = (e) => {
-    const newLang = e.target.value;
-    i18n.changeLanguage(newLang);
-    setCurrentLang(newLang);
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng);
+    setActiveLang(lng);
   };
 
   return (
-    <select onChange={handleChange} value={currentLang}>
-      <option value="en">English</option>
-      <option value="de">Deutsch</option>
-      <option value="tr">Türkçe</option>
-      <option value="es">Español</option>
-      <option value="ar">العربية</option>
-    </select>
+    <div className="language-switcher">
+      {languages.map((lang) => (
+        <button
+          key={lang.code}
+          className={`flag-button ${activeLang === lang.code ? 'active' : ''}`}
+          onClick={() => changeLanguage(lang.code)}
+          aria-label={lang.code}
+        >
+          {lang.label}
+        </button>
+      ))}
+    </div>
   );
 }
+
 
 
