@@ -1,5 +1,53 @@
 {
-    "greeting": "Welcome to my world.",
-    "projectCTA": "Start a Project"
+  "profile": {
+    "title": "About Me",
+    "alt": "Profile picture of Marcos Ilgi",
+    "nameLabel": "Name",
+    "positionLabel": "Position",
+    "position": "Founder & Developer of lni.design",
+    "locationLabel": "Location",
+    "location": "Cologne, Germany",
+    "languagesLabel": "Languages",
+    "languages": "German, English, Turkish, Spanish (basic)",
+    "technologiesLabel": "Technologies",
+    "technologies": "HTML, CSS, JS, React, Node.js, PostgreSQL, Supabase, PHP, Python",
+    "focusLabel": "Focus",
+    "focus": "Web development, branding strategy, automation, business design"
+  },
+  "inspiration": {
+    "title": "Inspiration",
+    "text": "I draw my inspiration from the intersection of technology, design, and strategy. It's not just about good looks – it's about systems that work and deliver results."
+  },
+  "skills": {
+    "title": "Skills",
+    "stackLabel": "Stack & Tools",
+    "stack": "HTML, CSS, JavaScript, React, Node.js, Express, Vite, PostgreSQL, Supabase, Firebase, Laravel, Django",
+    "otherLabel": "Other Skills",
+    "other": "UI/UX, CI development, content strategy, CMS/CRM architecture, automation",
+    "languagesLabel": "Languages",
+    "languages": "German, English, Turkish, Spanish (basic)"
+  },
+  "projects": {
+    "title": "Projects",
+    "lnidesign": "International creative agency focused on design, IT and events. Tools: lni.models, lni.booking",
+    "chens29": "T-shirt sales platform – minimalist, effective, built with React + Stripe",
+    "sheherazade": "Multilingual booking platform for halal river cruises",
+    "tolearnlist": "AI-based learning platform with a graph-based knowledge system"
+  },
+  "philosophy": {
+    "title": "Life Philosophy",
+    "text": "I work efficiently, solution-oriented and with a clear line. No overengineering – just systems that work. I see myself not as a service provider, but as a strategic partner."
+  },
+  "vision": {
+    "title": "Vision & Goals",
+    "text": "I develop scalable systems that create real value – not for trends, but for long-term impact. Technology is a means to an end. The end is impact."
+  },
+  "cta": {
+    "title": "Ready for your next project?",
+    "text": "Let's build something great together.",
+    "button": "Request a Project",
+    "github": "View my projects on GitHub"
   }
+}
+
   

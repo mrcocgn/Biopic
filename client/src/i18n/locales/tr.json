@@ -1,5 +1,51 @@
 {
-    "greeting": "Dünyama hoş geldin.",
-    "projectCTA": "Bir Proje Başlat"
+  "profile": {
+    "title": "Hakkımda",
+    "alt": "Marcos Ilgi'nin profil fotoğrafı",
+    "nameLabel": "İsim",
+    "positionLabel": "Pozisyon",
+    "position": "lni.design'in Kurucusu ve Geliştiricisi",
+    "locationLabel": "Konum",
+    "location": "Köln, Almanya",
+    "languagesLabel": "Diller",
+    "languages": "Almanca, İngilizce, Türkçe, İspanyolca (temel)",
+    "technologiesLabel": "Teknolojiler",
+    "technologies": "HTML, CSS, JS, React, Node.js, PostgreSQL, Supabase, PHP, Python",
+    "focusLabel": "Odak Noktası",
+    "focus": "Web geliştirme, marka stratejisi, otomasyon, iş tasarımı"
+  },
+  "inspiration": {
+    "title": "İlham",
+    "text": "İlhamımı teknoloji, tasarım ve stratejinin birleşiminden alıyorum. Benim için mesele sadece estetik değil, aynı zamanda sonuç üreten akıllı sistemlerdir."
+  },
+  "skills": {
+    "title": "Yetenekler",
+    "stackLabel": "Stack & Araçlar",
+    "stack": "HTML, CSS, JavaScript, React, Node.js, Express, Vite, PostgreSQL, Supabase, Firebase, Laravel, Django",
+    "otherLabel": "Diğer Yetenekler",
+    "other": "UI/UX, kurumsal kimlik geliştirme, içerik stratejisi, CMS/CRM mimarisi, otomasyon",
+    "languagesLabel": "Diller",
+    "languages": "Almanca, İngilizce, Türkçe, İspanyolca (temel)"
+  },
+  "projects": {
+    "title": "Projeler",
+    "lnidesign": "Tasarım, yazılım ve etkinlik odaklı uluslararası kreatif ajans. Araçlar: lni.models, lni.booking",
+    "chens29": "Minimalist tişört satış platformu – React ve Stripe ile geliştirildi",
+    "sheherazade": "Helal konseptli nehir turları için çok dilli rezervasyon platformu",
+    "tolearnlist": "Graf tabanlı bilgi sistemiyle yapay zekaya dayalı öğrenme platformu"
+  },
+  "philosophy": {
+    "title": "Hayat Felsefesi",
+    "text": "Verimli, çözüm odaklı ve net bir şekilde çalışırım. Aşırı karmaşıklık yerine çalışan sistemler kurarım. Kendimi hizmet sağlayıcı değil, stratejik bir ortak olarak görüyorum."
+  },
+  "vision": {
+    "title": "Vizyon & Hedefler",
+    "text": "Trendler için değil, uzun vadeli değer yaratmak için ölçeklenebilir sistemler geliştiriyorum. Teknoloji bir araçtır, amaç ise etkidir."
+  },
+  "cta": {
+    "title": "Yeni projene hazır mısın?",
+    "text": "Haydi birlikte harika bir şey oluşturalım.",
+    "button": "Proje talep et",
+    "github": "👉 GitHub üzerindeki projelerime göz at"
   }
-  
+}

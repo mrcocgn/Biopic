@@ -1,5 +1,53 @@
 {
-    "greeting": "Willkommen in meiner Welt.",
-    "projectCTA": "Projekt starten"
+  "profile": {
+    "title": "Über mich",
+    "alt": "Profilbild von Marcos Ilgi",
+    "nameLabel": "Name",
+    "positionLabel": "Position",
+    "position": "Gründer & Entwickler von lni.design",
+    "locationLabel": "Standort",
+    "location": "Köln, Deutschland",
+    "languagesLabel": "Sprachen",
+    "languages": "Deutsch, Englisch, Türkisch, Spanisch (Grundkenntnisse)",
+    "technologiesLabel": "Technologien",
+    "technologies": "HTML, CSS, JS, React, Node.js, PostgreSQL, Supabase, PHP, Python",
+    "focusLabel": "Fokus",
+    "focus": "Webentwicklung, Markenstrategie, Automatisierung, Business Design"
+  },
+  "inspiration": {
+    "title": "Inspiration",
+    "text": "Ich ziehe meine Inspiration aus der Verbindung von Technologie, Design und Strategie. Für mich geht es nicht nur um schöne Oberflächen – sondern um durchdachte Systeme, die Ergebnisse liefern."
+  },
+  "skills": {
+    "title": "Skills",
+    "stackLabel": "Stack & Tools",
+    "stack": "HTML, CSS, JavaScript, React, Node.js, Express, Vite, PostgreSQL, Supabase, Firebase, Laravel, Django",
+    "otherLabel": "Weitere Skills",
+    "other": "UI/UX, CI-Entwicklung, Content-Strategie, CMS-/CRM-Architektur, Automatisierung",
+    "languagesLabel": "Sprachen",
+    "languages": "Deutsch, Englisch, Türkisch, Spanisch (Grundkenntnisse)"
+  },
+  "projects": {
+    "title": "Projekte",
+    "lnidesign": "Internationale Kreativagentur mit Fokus auf Design, IT und Events. Tools: lni.models, lni.booking",
+    "chens29": "T-Shirt-Verkaufsplattform – minimalistisch, effektiv, gebaut mit React + Stripe",
+    "sheherazade": "Mehrsprachige Buchungsplattform für halal-konforme Flusskreuzfahrten",
+    "tolearnlist": "KI-basierte Lernplattform mit graphbasiertem Wissenssystem"
+  },
+  "philosophy": {
+    "title": "Lebensphilosophie",
+    "text": "Ich arbeite effizient, lösungsorientiert und mit klarer Linie. Kein Overengineering – sondern Systeme, die funktionieren. Ich sehe mich nicht als Dienstleister, sondern als strategischen Partner auf Augenhöhe."
+  },
+  "vision": {
+    "title": "Visionen & Ziele",
+    "text": "Ich entwickle skalierbare Systeme, die echten Mehrwert schaffen – nicht für Trends, sondern für langfristigen Nutzen. Technologie ist für mich Mittel zum Zweck. Der Zweck ist Wirkung."
+  },
+  "cta": {
+    "title": "Bereit für dein nächstes Projekt?",
+    "text": "Lass uns gemeinsam etwas Großartiges starten.",
+    "button": "Projekt anfragen",
+    "github": "👉 Meine Projekte auf GitHub ansehen"
   }
+}
+
   

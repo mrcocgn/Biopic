@@ -1,5 +1,51 @@
 {
-    "greeting": "Bienvenido a mi mundo.",
-    "projectCTA": "Iniciar un proyecto"
+  "profile": {
+    "title": "Sobre mí",
+    "alt": "Foto de perfil de Marcos Ilgi",
+    "nameLabel": "Nombre",
+    "positionLabel": "Puesto",
+    "position": "Fundador y desarrollador de lni.design",
+    "locationLabel": "Ubicación",
+    "location": "Colonia, Alemania",
+    "languagesLabel": "Idiomas",
+    "languages": "Alemán, inglés, turco, español (básico)",
+    "technologiesLabel": "Tecnologías",
+    "technologies": "HTML, CSS, JS, React, Node.js, PostgreSQL, Supabase, PHP, Python",
+    "focusLabel": "Enfoque",
+    "focus": "Desarrollo web, estrategia de marca, automatización, diseño de negocios"
+  },
+  "inspiration": {
+    "title": "Inspiración",
+    "text": "Mi inspiración proviene de la unión entre tecnología, diseño y estrategia. No se trata solo de apariencia, sino de sistemas bien pensados que generan resultados reales."
+  },
+  "skills": {
+    "title": "Habilidades",
+    "stackLabel": "Tecnologías y herramientas",
+    "stack": "HTML, CSS, JavaScript, React, Node.js, Express, Vite, PostgreSQL, Supabase, Firebase, Laravel, Django",
+    "otherLabel": "Otras habilidades",
+    "other": "UX/UI, desarrollo de identidad visual, estrategia de contenidos, arquitectura CMS/CRM, automatización",
+    "languagesLabel": "Idiomas",
+    "languages": "Alemán, inglés, turco, español (básico)"
+  },
+  "projects": {
+    "title": "Proyectos",
+    "lnidesign": "Agencia creativa internacional centrada en diseño, tecnología y eventos. Herramientas: lni.models, lni.booking",
+    "chens29": "Plataforma minimalista de venta de camisetas – construida con React y Stripe",
+    "sheherazade": "Plataforma multilingüe de reservas para cruceros fluviales halal",
+    "tolearnlist": "Plataforma de aprendizaje basada en IA con un sistema de conocimiento en grafo"
+  },
+  "philosophy": {
+    "title": "Filosofía de vida",
+    "text": "Trabajo de forma eficiente, orientado a soluciones y con claridad. Nada de complicaciones innecesarias – solo sistemas que funcionan. Me considero un socio estratégico, no solo un proveedor de servicios."
+  },
+  "vision": {
+    "title": "Visión y objetivos",
+    "text": "Desarrollo sistemas escalables que crean valor real – no por moda, sino por impacto a largo plazo. La tecnología es solo una herramienta. El objetivo es generar impacto."
+  },
+  "cta": {
+    "title": "¿Listo para tu próximo proyecto?",
+    "text": "Construyamos algo grandioso juntos.",
+    "button": "Solicitar proyecto",
+    "github": "👉 Ver mis proyectos en GitHub"
   }
-  
+}

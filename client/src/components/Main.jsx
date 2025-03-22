@@ -1,18 +1,22 @@
+import { useTranslation } from 'react-i18next';
+
 function Main() {
+    const { t } = useTranslation();
+
     return (
         <main>
             <section id="profil">
-                <h2>Über mich</h2>
-                <div class="profil-container">
-                    <img src="avatar.jpg" alt="Profilbild von Marcos Ilgi" class="profilbild" />
-                    <div class="profiltext">
+                <h2>{t('profile.title')}</h2>
+                <div className="profil-container">
+                    <img src="avatar.jpg" alt={t('profile.alt')} className="profilbild" />
+                    <div className="profiltext">
                         <ul>
-                            <li><strong>Name:</strong> Marcos Ilgi</li>
-                            <li><strong>Position:</strong> Gründer & Entwickler von lni.design</li>
-                            <li><strong>Standort:</strong> Köln, Deutschland</li>
-                            <li><strong>Sprachen:</strong> Deutsch, Englisch, Türkisch, Spanisch (Grundkenntnisse)</li>
-                            <li><strong>Technologien:</strong> HTML, CSS, JS, React, Node.js, PostgreSQL, Supabase, PHP, Python</li>
-                            <li><strong>Fokus:</strong> Webentwicklung, Markenstrategie, Automatisierung, Business Design</li>
+                            <li><strong>{t('profile.nameLabel')}:</strong> Marcos Ilgi</li>
+                            <li><strong>{t('profile.positionLabel')}:</strong> {t('profile.position')}</li>
+                            <li><strong>{t('profile.locationLabel')}:</strong> {t('profile.location')}</li>
+                            <li><strong>{t('profile.languagesLabel')}:</strong> {t('profile.languages')}</li>
+                            <li><strong>{t('profile.technologiesLabel')}:</strong> {t('profile.technologies')}</li>
+                            <li><strong>{t('profile.focusLabel')}:</strong> {t('profile.focus')}</li>
                             <li><strong>GitHub:</strong> <a href="https://github.com/mrcocgn" target="_blank">@mrcocgn</a></li>
                             <li><strong>Instagram:</strong> <a href="https://instagram.com/mrcocgn" target="_blank">@mrcocgn</a></li>
                         </ul>
@@ -21,62 +25,48 @@ function Main() {
             </section>
 
             <section id="inspiration">
-                <h2>Inspiration</h2>
-                <p>
-                    Ich ziehe meine Inspiration aus der Verbindung von Technologie, Design und Strategie.<br />
-                    Für mich geht es nicht nur um schöne Oberflächen – sondern um durchdachte Systeme, die Ergebnisse liefern.<br />
-                    Kreativität ist für mich kein Selbstzweck, sondern ein Werkzeug zur Lösung.
-                </p>
+                <h2>{t('inspiration.title')}</h2>
+                <p>{t('inspiration.text')}</p>
             </section>
 
             <section id="skills">
-                <h2>Skills</h2>
+                <h2>{t('skills.title')}</h2>
                 <ul>
-                    <li><strong>Stack & Tools:</strong> HTML, CSS, JavaScript, React, Node.js, Express, Vite, PostgreSQL, Supabase, Firebase, Laravel, Django</li>
-                    <li><strong>Weitere Skills:</strong> UI/UX, CI-Entwicklung, Content-Strategie, CMS-/CRM-Architektur, Automatisierung</li>
-                    <li><strong>Sprachen:</strong> Deutsch, Englisch, Türkisch, Spanisch (Grundkenntnisse)</li>
+                    <li><strong>{t('skills.stackLabel')}:</strong> {t('skills.stack')}</li>
+                    <li><strong>{t('skills.otherLabel')}:</strong> {t('skills.other')}</li>
+                    <li><strong>{t('skills.languagesLabel')}:</strong> {t('skills.languages')}</li>
                 </ul>
             </section>
 
             <section id="projects">
-                <h2>Projekte</h2>
+                <h2>{t('projects.title')}</h2>
                 <ul>
-                    <li><strong>lni.design:</strong> Internationale Kreativagentur mit Fokus auf Design, IT und Events. Tools: <em>lni.models</em>, <em>lni.booking</em></li>
-                    <li><strong>CHENS29:</strong> T-Shirt-Verkaufsplattform – minimalistisch, effektiv, React + Stripe</li>
-                    <li><strong>Sheherazade Dreams:</strong> Multilinguale Buchungsplattform für halal-konforme Kreuzfahrten</li>
-                    <li><strong>To-Learn-List:</strong> KI-basierte Lernplattform mit graphbasiertem Wissenssystem</li>
+                    <li><strong>lni.design:</strong> {t('projects.lnidesign')}</li>
+                    <li><strong>CHENS29:</strong> {t('projects.chens29')}</li>
+                    <li><strong>Sheherazade Dreams:</strong> {t('projects.sheherazade')}</li>
+                    <li><strong>To-Learn-List:</strong> {t('projects.tolearnlist')}</li>
                 </ul>
             </section>
 
             <section id="philosophy">
-                <h2>Lebensphilosophie</h2>
-                <p>
-                    Ich arbeite effizient, lösungsorientiert und mit klarer Linie.<br />
-                    Kein Overengineering – sondern Systeme, die funktionieren.<br />
-                    Ich sehe mich nicht als Dienstleister, sondern als strategischen Partner auf Augenhöhe.
-                </p>
+                <h2>{t('philosophy.title')}</h2>
+                <p>{t('philosophy.text')}</p>
             </section>
 
             <section id="vision">
-                <h2>Visionen & Ziele</h2>
-                <p>
-                    Ich entwickle skalierbare Systeme, die echten Mehrwert schaffen – nicht für Trends, sondern für langfristigen Nutzen.<br />
-                    Technologie ist für mich Mittel zum Zweck. Der Zweck ist Wirkung.
-                </p>
+                <h2>{t('vision.title')}</h2>
+                <p>{t('vision.text')}</p>
             </section>
 
             <section className="cta-section">
-                <h2>Bereit für dein nächstes Projekt?</h2>
-                <p>Lass uns gemeinsam etwas Großartiges starten.</p>
-                <a href="mailto:mrcocgn@icloud.com" className="cta-button">Projekt anfragen</a>
+                <h2>{t('cta.title')}</h2>
+                <p>{t('cta.text')}</p>
+                <a href="mailto:mrcocgn@icloud.com" className="cta-button">{t('cta.button')}</a>
             </section>
 
             <a href="https://github.com/mrcocgn" target="_blank" rel="noopener" className="cta-link">
-                👉 Meine Projekte auf GitHub ansehen
+                👉 {t('cta.github')}
             </a>
-
-            
-
         </main>
     );
 }
