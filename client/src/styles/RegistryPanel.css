@@ -48,3 +48,6 @@
   overflow-y: auto;
   position: relative;
 }
+.language-select{
+  text-align: center;
+}
