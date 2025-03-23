@@ -136,11 +136,11 @@ function Main() {
             rel="noopener noreferrer"
             className="cta-button whatsapp"
           >
-            📲 WhatsApp
+            📲 {t("cta.whatsapp")}
           </a>
 
           <a href="tel:+4917635116234" className="cta-button phone">
-            ☎️ Anrufen
+            {t("cta.call")}
           </a>
         </div>
       </section>
