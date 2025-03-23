@@ -109,3 +109,26 @@ button:focus-visible {
   font-family: inherit;
 }
 
+.cta-button {
+  display: inline-block;
+  padding: 12px 20px;
+  border-radius: 8px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: inherit;
+  transition: background-color 0.2s ease;
+}
+
+.cta-button:hover {
+  opacity: 0.9;
+}
+
+.cta-button.whatsapp {
+  background-color: #25d366;
+}
+
+.cta-button.phone {
+  background-color: #007bff;
+}
+

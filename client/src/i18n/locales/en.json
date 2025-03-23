@@ -12,42 +12,42 @@
     "technologiesLabel": "Technologies",
     "technologies": "HTML, CSS, JS, React, Node.js, PostgreSQL, Supabase, PHP, Python",
     "focusLabel": "Focus",
-    "focus": "Web development, branding strategy, automation, business design"
+    "focus": "Web Development, Brand Strategy, Automation, Business Design"
   },
   "inspiration": {
     "title": "Inspiration",
-    "text": "I draw my inspiration from the intersection of technology, design, and strategy. It's not just about good looks – it's about systems that work and deliver results."
+    "text": "I draw my inspiration from the intersection of technology, design, and strategy. For me, it’s not just about beautiful interfaces — it’s about well-thought-out systems that deliver results."
   },
   "skills": {
     "title": "Skills",
     "stackLabel": "Stack & Tools",
     "stack": "HTML, CSS, JavaScript, React, Node.js, Express, Vite, PostgreSQL, Supabase, Firebase, Laravel, Django",
     "otherLabel": "Other Skills",
-    "other": "UI/UX, CI development, content strategy, CMS/CRM architecture, automation",
+    "other": "UI/UX, CI Development, Content Strategy, CMS/CRM Architecture, Automation",
     "languagesLabel": "Languages",
     "languages": "German, English, Turkish, Spanish (basic)"
   },
   "projects": {
     "title": "Projects",
-    "lnidesign": "International creative agency focused on design, IT and events. Tools: lni.models, lni.booking",
-    "chens29": "T-shirt sales platform – minimalist, effective, built with React + Stripe",
-    "sheherazade": "Multilingual booking platform for halal river cruises",
-    "tolearnlist": "AI-based learning platform with a graph-based knowledge system"
+    "lnidesign": "International creative agency focusing on design, IT, and events. Tools: lni.models, lni.booking",
+    "chens29": "T-shirt sales platform – minimalist, efficient, built with React + Stripe",
+    "sheherazade": "Multilingual booking platform for halal-compliant river cruises",
+    "tolearnlist": "AI-based learning platform with a graph-driven knowledge system"
   },
   "philosophy": {
-    "title": "Life Philosophy",
-    "text": "I work efficiently, solution-oriented and with a clear line. No overengineering – just systems that work. I see myself not as a service provider, but as a strategic partner."
+    "title": "Philosophy",
+    "text": "I work efficiently, solution-oriented, and with clear direction. No overengineering — only systems that work. I don’t see myself as a service provider, but as a strategic partner at eye level."
   },
   "vision": {
     "title": "Vision & Goals",
-    "text": "I develop scalable systems that create real value – not for trends, but for long-term impact. Technology is a means to an end. The end is impact."
+    "text": "I develop scalable systems that create real value — not trendy gimmicks, but sustainable impact. For me, technology is a tool. The goal is creating results that matter."
   },
   "cta": {
     "title": "Ready for your next project?",
-    "text": "Let's build something great together.",
-    "button": "Request a Project",
-    "github": "View my projects on GitHub"
+    "text": "Let’s create something great together.",
+    "button": "Request a project",
+    "github": "👉 View my projects on GitHub",
+    "whatsapp": "WhatsApp",
+    "call": "Call me"
   }
 }
-
-  

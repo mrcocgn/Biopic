@@ -3,49 +3,51 @@
     "title": "Sobre mí",
     "alt": "Foto de perfil de Marcos Ilgi",
     "nameLabel": "Nombre",
-    "positionLabel": "Puesto",
+    "positionLabel": "Posición",
     "position": "Fundador y desarrollador de lni.design",
     "locationLabel": "Ubicación",
     "location": "Colonia, Alemania",
     "languagesLabel": "Idiomas",
-    "languages": "Alemán, inglés, turco, español (básico)",
+    "languages": "Alemán, Inglés, Turco, Español (básico)",
     "technologiesLabel": "Tecnologías",
     "technologies": "HTML, CSS, JS, React, Node.js, PostgreSQL, Supabase, PHP, Python",
     "focusLabel": "Enfoque",
-    "focus": "Desarrollo web, estrategia de marca, automatización, diseño de negocios"
+    "focus": "Desarrollo web, estrategia de marca, automatización, diseño empresarial"
   },
   "inspiration": {
     "title": "Inspiración",
-    "text": "Mi inspiración proviene de la unión entre tecnología, diseño y estrategia. No se trata solo de apariencia, sino de sistemas bien pensados que generan resultados reales."
+    "text": "Encuentro mi inspiración en la conexión entre tecnología, diseño y estrategia. Para mí no se trata solo de interfaces bonitas, sino de sistemas bien pensados que generen resultados reales."
   },
   "skills": {
     "title": "Habilidades",
-    "stackLabel": "Tecnologías y herramientas",
+    "stackLabel": "Stack y herramientas",
     "stack": "HTML, CSS, JavaScript, React, Node.js, Express, Vite, PostgreSQL, Supabase, Firebase, Laravel, Django",
     "otherLabel": "Otras habilidades",
-    "other": "UX/UI, desarrollo de identidad visual, estrategia de contenidos, arquitectura CMS/CRM, automatización",
+    "other": "UI/UX, desarrollo de CI, estrategia de contenidos, arquitectura de CMS/CRM, automatización",
     "languagesLabel": "Idiomas",
-    "languages": "Alemán, inglés, turco, español (básico)"
+    "languages": "Alemán, Inglés, Turco, Español (básico)"
   },
   "projects": {
     "title": "Proyectos",
-    "lnidesign": "Agencia creativa internacional centrada en diseño, tecnología y eventos. Herramientas: lni.models, lni.booking",
-    "chens29": "Plataforma minimalista de venta de camisetas – construida con React y Stripe",
-    "sheherazade": "Plataforma multilingüe de reservas para cruceros fluviales halal",
-    "tolearnlist": "Plataforma de aprendizaje basada en IA con un sistema de conocimiento en grafo"
+    "lnidesign": "Agencia creativa internacional centrada en diseño, IT y eventos. Herramientas: lni.models, lni.booking",
+    "chens29": "Plataforma de venta de camisetas — minimalista, eficaz, creada con React + Stripe",
+    "sheherazade": "Plataforma de reservas multilingüe para cruceros fluviales halal",
+    "tolearnlist": "Plataforma de aprendizaje con IA basada en sistemas de conocimiento gráfico"
   },
   "philosophy": {
     "title": "Filosofía de vida",
-    "text": "Trabajo de forma eficiente, orientado a soluciones y con claridad. Nada de complicaciones innecesarias – solo sistemas que funcionan. Me considero un socio estratégico, no solo un proveedor de servicios."
+    "text": "Trabajo de manera eficiente, orientada a soluciones y con una línea clara. Nada de complicaciones innecesarias — solo sistemas que funcionan. No me veo como un proveedor de servicios, sino como un socio estratégico al mismo nivel."
   },
   "vision": {
     "title": "Visión y objetivos",
-    "text": "Desarrollo sistemas escalables que crean valor real – no por moda, sino por impacto a largo plazo. La tecnología es solo una herramienta. El objetivo es generar impacto."
+    "text": "Desarrollo sistemas escalables que aportan verdadero valor — no modas pasajeras, sino impacto duradero. La tecnología es para mí un medio, no un fin. El objetivo es generar resultados con sentido."
   },
   "cta": {
     "title": "¿Listo para tu próximo proyecto?",
-    "text": "Construyamos algo grandioso juntos.",
-    "button": "Solicitar proyecto",
-    "github": "👉 Ver mis proyectos en GitHub"
+    "text": "Creamos algo grandioso juntos.",
+    "button": "Solicitar un proyecto",
+    "github": "👉 Ver mis proyectos en GitHub",
+    "whatsapp": "WhatsApp",
+    "call": "Llamar"
   }
 }

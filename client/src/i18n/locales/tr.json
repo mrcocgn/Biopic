@@ -4,23 +4,23 @@
     "alt": "Marcos Ilgi'nin profil fotoğrafı",
     "nameLabel": "İsim",
     "positionLabel": "Pozisyon",
-    "position": "lni.design'in Kurucusu ve Geliştiricisi",
+    "position": "lni.design'in kurucusu ve geliştiricisi",
     "locationLabel": "Konum",
     "location": "Köln, Almanya",
     "languagesLabel": "Diller",
     "languages": "Almanca, İngilizce, Türkçe, İspanyolca (temel)",
     "technologiesLabel": "Teknolojiler",
     "technologies": "HTML, CSS, JS, React, Node.js, PostgreSQL, Supabase, PHP, Python",
-    "focusLabel": "Odak Noktası",
+    "focusLabel": "Odak",
     "focus": "Web geliştirme, marka stratejisi, otomasyon, iş tasarımı"
   },
   "inspiration": {
     "title": "İlham",
-    "text": "İlhamımı teknoloji, tasarım ve stratejinin birleşiminden alıyorum. Benim için mesele sadece estetik değil, aynı zamanda sonuç üreten akıllı sistemlerdir."
+    "text": "İlhamımı teknoloji, tasarım ve stratejinin birleşiminden alıyorum. Benim için mesele sadece estetik arayüzler değil — aynı zamanda sonuç odaklı, iyi düşünülmüş sistemlerdir."
   },
   "skills": {
     "title": "Yetenekler",
-    "stackLabel": "Stack & Araçlar",
+    "stackLabel": "Stack ve Araçlar",
     "stack": "HTML, CSS, JavaScript, React, Node.js, Express, Vite, PostgreSQL, Supabase, Firebase, Laravel, Django",
     "otherLabel": "Diğer Yetenekler",
     "other": "UI/UX, kurumsal kimlik geliştirme, içerik stratejisi, CMS/CRM mimarisi, otomasyon",
@@ -29,23 +29,25 @@
   },
   "projects": {
     "title": "Projeler",
-    "lnidesign": "Tasarım, yazılım ve etkinlik odaklı uluslararası kreatif ajans. Araçlar: lni.models, lni.booking",
-    "chens29": "Minimalist tişört satış platformu – React ve Stripe ile geliştirildi",
+    "lnidesign": "Tasarım, bilişim ve etkinliklere odaklanan uluslararası yaratıcı ajans. Araçlar: lni.models, lni.booking",
+    "chens29": "Tişört satış platformu – minimalist, verimli, React + Stripe ile geliştirildi",
     "sheherazade": "Helal konseptli nehir turları için çok dilli rezervasyon platformu",
-    "tolearnlist": "Graf tabanlı bilgi sistemiyle yapay zekaya dayalı öğrenme platformu"
+    "tolearnlist": "Graf tabanlı bilgi sistemiyle çalışan yapay zeka destekli öğrenme platformu"
   },
   "philosophy": {
     "title": "Hayat Felsefesi",
-    "text": "Verimli, çözüm odaklı ve net bir şekilde çalışırım. Aşırı karmaşıklık yerine çalışan sistemler kurarım. Kendimi hizmet sağlayıcı değil, stratejik bir ortak olarak görüyorum."
+    "text": "Verimli, çözüm odaklı ve net bir yaklaşımla çalışırım. Fazlalığa yer yok — sadece işe yarayan sistemler. Kendimi bir hizmet sağlayıcı olarak değil, stratejik bir ortak olarak görüyorum."
   },
   "vision": {
     "title": "Vizyon & Hedefler",
-    "text": "Trendler için değil, uzun vadeli değer yaratmak için ölçeklenebilir sistemler geliştiriyorum. Teknoloji bir araçtır, amaç ise etkidir."
+    "text": "Gerçek değer yaratan, ölçeklenebilir sistemler geliştiriyorum — trendler için değil, sürdürülebilir etki için. Teknoloji benim için sadece bir araçtır. Amaç: anlamlı sonuçlar üretmek."
   },
   "cta": {
-    "title": "Yeni projene hazır mısın?",
-    "text": "Haydi birlikte harika bir şey oluşturalım.",
+    "title": "Yeni projen için hazır mısın?",
+    "text": "Haydi birlikte harika bir şey yaratalım.",
     "button": "Proje talep et",
-    "github": "👉 GitHub üzerindeki projelerime göz at"
+    "github": "👉 GitHub projelerimi incele",
+    "whatsapp": "WhatsApp",
+    "call": "Ara"
   }
 }
