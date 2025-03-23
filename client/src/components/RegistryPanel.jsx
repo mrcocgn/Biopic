@@ -1,6 +1,7 @@
-// Datei: client/src/components/RegistryPanel.jsx
 import { useState } from 'react'
-import './RegistryPanel.css'
+import LanguageSwitcher from './LanguageSwitcher'
+import '../styles/RegistryPanel.css'
+
 
 export default function RegistryPanel() {
   const [open, setOpen] = useState(false)
@@ -33,14 +34,7 @@ export default function RegistryPanel() {
             </form>
 
             <div className="language-select">
-              <label htmlFor="lang">Language</label>
-              <select id="lang">
-                <option value="en">English</option>
-                <option value="de">Deutsch</option>
-                <option value="tr">Türkçe</option>
-                <option value="es">Español</option>
-                <option value="ar">عربي</option>
-              </select>
+              <LanguageSwitcher />
             </div>
           </div>
         </div>
