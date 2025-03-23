@@ -49,5 +49,9 @@
     "github": "👉 Meine Projekte auf GitHub ansehen",
     "whatsapp": "WhatsApp",
     "call": "☎️ Anrufen"
+  },
+  "register": {
+    "welcome": "Willkommen",
+    "subscribe": "Registriere dich"
   }
 }
