@@ -6,7 +6,9 @@ import "../styles/RegistryPanel.css";
 export default function RegistryPanel() {
   const [open, setOpen] = useState(false);
   const [hideToggle, setHideToggle] = useState(false);
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+
+  const rtlLangs = ["ar"];
 
   useEffect(() => {
     const handleScroll = () => {
@@ -19,7 +21,25 @@ export default function RegistryPanel() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, [open]);
 
+  useEffect(() => {
+    const savedLang = localStorage.getItem("language");
+    if (savedLang) {
+      i18n.changeLanguage(savedLang);
+      document.documentElement.lang = savedLang;
+      document.documentElement.dir = rtlLangs.includes(savedLang) ? "rtl" : "ltr";
+    }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [i18n]);
+
   const togglePanel = () => setOpen(!open);
+
+  const handleLangChange = (e) => {
+    const lang = e.target.value;
+    i18n.changeLanguage(lang);
+    localStorage.setItem("language", lang);
+    document.documentElement.lang = lang;
+    document.documentElement.dir = rtlLangs.includes(lang) ? "rtl" : "ltr";
+  };
 
   return (
     <>
@@ -39,9 +59,10 @@ export default function RegistryPanel() {
               <p>{t("register.subscribe")}</p>
               <AuthForm />
               <br />
+
               <div className="language-select">
                 <label htmlFor="lang">{t("register.language")}</label>
-                <select id="lang">
+                <select id="lang" onChange={handleLangChange} value={i18n.language}>
                   <option value="en">{t("lang.en")}</option>
                   <option value="de">{t("lang.de")}</option>
                   <option value="tr">{t("lang.tr")}</option>
