@@ -52,6 +52,7 @@
   },
   "register": {
     "welcome": "Willkommen",
-    "subscribe": "Registriere dich"
+    "subscribe": "Registriere dich",
+    "language": "Sprache auswählen: "
   }
 }

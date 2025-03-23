@@ -39,7 +39,7 @@ export default function RegistryPanel() {
               <p>{t("register.subscribe")}</p>
               <AuthForm />
               <div className="language-select">
-                <label htmlFor="lang">Language</label>
+                <label htmlFor="lang">{t("register.language")}</label>
                 <select id="lang">
                   <option value="en">English</option>
                   <option value="de">Deutsch</option>
