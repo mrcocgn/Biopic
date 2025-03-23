@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import { supabase } from '../lib/supabaseClient'
 
-
 export default function AuthForm() {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
@@ -67,4 +66,3 @@ export default function AuthForm() {
     </div>
   )
 }
-
