@@ -108,14 +108,6 @@ function Main() {
       <section className="cta-section">
         <h2>{t("cta.title")}</h2>
         <p>{t("cta.text")}</p>
-        <a href="mailto:mrcocgn@icloud.com" className="cta-button">
-          {t("cta.button")}
-        </a>
-      </section>
-
-      <section className="cta-section">
-        <h2>{t("cta.title")}</h2>
-        <p>{t("cta.text")}</p>
 
         <div
           className="cta-buttons"
