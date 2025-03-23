@@ -2,14 +2,18 @@
   position: fixed;
   top: 1rem;
   right: 1rem;
-  background-color: #2f855a;
-  color: white;
+  background-color: transparent;
+  color: #2f855a;
   border: none;
-  padding: 0.6rem 1.2rem;
-  font-size: 1rem;
-  border-radius: 8px;
+  font-size: 1.8rem;
   cursor: pointer;
-  z-index: 1000;
+  z-index: 1001;
+  transition: opacity 0.3s ease;
+}
+
+.registry-toggle.hidden {
+  opacity: 0;
+  pointer-events: none;
 }
 
 .registry-panel {
@@ -42,44 +46,4 @@
   border-bottom-left-radius: 16px;
   overflow-y: auto;
   position: relative;
-}
-
-.registry-close {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  font-size: 1.2rem;
-  background: none;
-  border: none;
-  cursor: pointer;
-  color: #444;
-}
-
-.registry-content h2 {
-  margin-top: 0;
-  font-size: 1.8rem;
-  color: #2f855a;
-}
-
-.registry-content p {
-  margin-bottom: 1.5rem;
-  color: #555;
-}
-
-.language-select {
-  margin-top: 2rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-
-
-.registry-toggle.hidden {
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.3s ease;
-}
-
-.registry-toggle {
-  transition: opacity 0.3s ease;
 }

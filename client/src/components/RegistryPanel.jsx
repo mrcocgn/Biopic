@@ -7,29 +7,25 @@ export default function RegistryPanel() {
   const [hideToggle, setHideToggle] = useState(false)
 
   useEffect(() => {
-    const handleScroll = () => {
-      setHideToggle(window.scrollY > 10)
-    }
-
+    const handleScroll = () => setHideToggle(window.scrollY > 10)
     window.addEventListener('scroll', handleScroll)
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
+
+  const togglePanel = () => setOpen(!open)
 
   return (
     <>
       <button
         className={`registry-toggle ${hideToggle ? 'hidden' : ''}`}
-        onClick={() => setOpen(true)}
+        onClick={togglePanel}
+        aria-label={open ? 'Close menu' : 'Open menu'}
       >
-        📋 Registry
+        {open ? '✖' : '☰'}
       </button>
 
       <aside className={`registry-panel ${open ? 'open' : ''}`}>
         <div className="registry-inner">
-          <button className="registry-close" onClick={() => setOpen(false)}>
-            ✖
-          </button>
-
           <div className="registry-content">
             <h2>Welcome</h2>
             <p>Sign up for news, booking or contact.</p>
