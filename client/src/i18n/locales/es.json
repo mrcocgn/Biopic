@@ -53,7 +53,7 @@
   "register": {
     "welcome": "Bienvenido",
     "subscribe": "Regístrate",
-    "language": "Seleccionar idioma:"
+    "language": "Seleccionar idioma: "
   },
   "auth-form": {
     "email": "Correo electrónico",
