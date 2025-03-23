@@ -1,28 +1,48 @@
-// src/components/AuthForm.jsx
-import { getSupabaseClient } from '../lib/supabaseClient'
 import { useState } from 'react'
+import { supabase } from '../lib/supabaseClient'
 
-const supabase = getSupabaseClient()
-
-export function AuthForm() {
+export default function AuthForm() {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
 
-  async function handleEmailLogin(e) {
+  const handleEmailSignUp = async (e) => {
     e.preventDefault()
-    const { error } = await supabase.auth.signInWithPassword({ email, password })
-    if (error) alert(error.message)
-    else alert('Eingeloggt!')
+    const { data, error } = await supabase.auth.signUp({
+      email,
+      password,
+    })
+    if (error) {
+      console.error('Error signing up:', error.message)
+    } else {
+      console.log('Sign-up successful:', data)
+    }
   }
 
-  async function handleOAuthLogin(provider) {
-    const { error } = await supabase.auth.signInWithOAuth({ provider })
-    if (error) alert(error.message)
+  const handleEmailSignIn = async (e) => {
+    e.preventDefault()
+    const { data, error } = await supabase.auth.signInWithPassword({
+      email,
+      password,
+    })
+    if (error) {
+      console.error('Error signing in:', error.message)
+    } else {
+      console.log('Sign-in successful:', data)
+    }
+  }
+
+  const handleOAuthSignIn = async (provider) => {
+    const { data, error } = await supabase.auth.signInWithOAuth({ provider })
+    if (error) {
+      console.error(`Error signing in with ${provider}:`, error.message)
+    } else {
+      console.log(`Sign-in with ${provider} successful:`, data)
+    }
   }
 
   return (
     <div>
-      <form onSubmit={handleEmailLogin}>
+      <form onSubmit={handleEmailSignIn}>
         <input
           type="email"
           placeholder="E-Mail"
@@ -37,14 +57,13 @@ export function AuthForm() {
           onChange={(e) => setPassword(e.target.value)}
           required
         />
-        <button type="submit">Login / Registrierung</button>
+        <button type="submit">Einloggen</button>
+        <button onClick={handleEmailSignUp}>Registrieren</button>
       </form>
-
-      <hr />
-
-      <button onClick={() => handleOAuthLogin('google')}>Login mit Google</button>
-      <button onClick={() => handleOAuthLogin('github')}>Login mit GitHub</button>
-      <button onClick={() => handleOAuthLogin('instagram')}>Login mit Instagram</button>
+      <button onClick={() => handleOAuthSignIn('google')}>Mit Google einloggen</button>
+      <button onClick={() => handleOAuthSignIn('github')}>Mit GitHub einloggen</button>
+      <button onClick={() => handleOAuthSignIn('instagram')}>Mit Instagram einloggen</button>
     </div>
   )
 }
+

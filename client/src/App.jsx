@@ -1,6 +1,8 @@
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Main from './components/Main';
+import SlidePanel from './components/SlidePanel'
+import AuthForm from './components/AuthForm'
 import { Analytics } from "@vercel/analytics/react"
 import './App.css';
 
@@ -14,6 +16,9 @@ function App() {
       <Header />
       <Main />
       <Footer />
+      <SlidePanel>
+        <AuthForm />
+      </SlidePanel>
       <Analytics />
     </div>
   );
