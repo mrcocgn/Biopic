@@ -84,9 +84,9 @@ export default function AuthForm() {
           <img src="/icons/google.svg" alt="Google Logo" />
           <span>{t("auth-form.google")}</span>
         </button>
-        <section id="or">
-        <p>{t("auth-form.or")}</p>
-        </section>
+        
+        <p id="or">{t("auth-form.or")}</p>
+        
         <button
           type="button"
           className="github-btn"
