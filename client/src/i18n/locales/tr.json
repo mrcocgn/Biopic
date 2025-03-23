@@ -53,7 +53,7 @@
   "register": {
     "welcome": "Hoş geldin",
     "subscribe": "Kayıt ol",
-    "language": "Dil seç:"
+    "language": "Dil seç: "
   },
   "auth-form": {
     "email": "E-posta",
