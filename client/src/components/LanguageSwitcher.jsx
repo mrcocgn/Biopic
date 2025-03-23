@@ -7,7 +7,12 @@ const languages = [
   { code: 'de', label: '🇩🇪' },
   { code: 'tr', label: '🇹🇷' },
   { code: 'es', label: '🇪🇸' },
-  { code: 'ar', label: '🇸🇦' }
+  { code: 'ar', label: '🇸🇦' },
+  { code: 'fr', label: '🇫🇷' },
+  { code: 'it', label: '🇮🇹' },
+  { code: 'ru', label: '🇷🇺' },
+  { code: 'zh', label: '🇨🇳' },
+  { code: 'ja', label: '🇯🇵' }
 ];
 
 export default function LanguageSwitcher() {
