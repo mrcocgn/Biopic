@@ -1,11 +1,13 @@
 import { useState } from "react";
 import { supabase } from "../lib/supabaseClient";
+import { useTranslation } from "react-i18next";
 import "../styles/AuthForm.css";
 
 export default function AuthForm() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [loading, setLoading] = useState(false);
+  const { t } = useTranslation();
 
   const handleEmailSignUp = async (e) => {
     e.preventDefault();
@@ -49,27 +51,27 @@ export default function AuthForm() {
   };
 
   return (
-    <div>
+    <div id="auth-form">
       <form className="auth-form" onSubmit={handleEmailSignIn}>
         <input
           type="email"
-          placeholder="E-Mail"
+          placeholder={t('auth-form.email')}
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           required
         />
         <input
           type="password"
-          placeholder="Passwort"
+          placeholder={t('auth-form.password')}
           value={password}
           onChange={(e) => setPassword(e.target.value)}
           required
         />
         <button type="submit" disabled={loading}>
-          Einloggen
+          {t('auth-form.login')}
         </button>
         <button type="button" onClick={handleEmailSignUp} disabled={loading}>
-          Registrieren
+          {t('auth-form.register')}
         </button>
       </form>
 
@@ -80,8 +82,10 @@ export default function AuthForm() {
           onClick={() => handleOAuthSignIn("google")}
         >
           <img src="/icons/google.svg" alt="Google Logo" />
-          <span>Mit Google einloggen</span>
+          <span>{t("auth-form.google")}</span>
         </button>
+
+        <p>{t("auth-form.or")}</p>
 
         <button
           type="button"
@@ -89,7 +93,7 @@ export default function AuthForm() {
           onClick={() => handleOAuthSignIn("github")}
         >
           <img src="/icons/github.svg" alt="GitHub Logo" />
-          <span>Mit GitHub einloggen</span>
+          <span>{t("auth-form.github")}</span>
         </button>
       </div>
     </div>

@@ -54,5 +54,14 @@
     "welcome": "Willkommen",
     "subscribe": "Registriere dich",
     "language": "Sprache auswählen: "
+  },
+  "auth-form": {
+    "email": "E-Mail",
+    "password": "Passwort",
+    "login": "Anmelden",
+    "register": "Registrieren",
+    "google": "Mit Google anmelden",
+    "or": "oder",
+    "github": "Mit GitHub anmelden",
   }
 }
