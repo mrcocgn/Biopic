@@ -74,11 +74,22 @@ export default function AuthForm() {
       </form>
 
       <div className="oauth-buttons">
-        <button type="button" onClick={() => handleOAuthSignIn("google")}>
-          Mit Google einloggen
+        <button
+          type="button"
+          className="google-btn"
+          onClick={() => handleOAuthSignIn("google")}
+        >
+          <img src="/icons/google.svg" alt="Google Logo" />
+          <span>Mit Google einloggen</span>
         </button>
-        <button type="button" onClick={() => handleOAuthSignIn("github")}>
-          Mit GitHub einloggen
+
+        <button
+          type="button"
+          className="github-btn"
+          onClick={() => handleOAuthSignIn("github")}
+        >
+          <img src="/icons/github.svg" alt="GitHub Logo" />
+          <span>Mit GitHub einloggen</span>
         </button>
       </div>
     </div>
