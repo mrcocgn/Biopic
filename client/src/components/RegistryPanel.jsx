@@ -7,10 +7,15 @@ export default function RegistryPanel() {
   const [hideToggle, setHideToggle] = useState(false)
 
   useEffect(() => {
-    const handleScroll = () => setHideToggle(window.scrollY > 10)
+    const handleScroll = () => {
+      if (!open) {
+        setHideToggle(window.scrollY > 10)
+      }
+    }
+  
     window.addEventListener('scroll', handleScroll)
     return () => window.removeEventListener('scroll', handleScroll)
-  }, [])
+  }, [open])  
 
   const togglePanel = () => setOpen(!open)
 
