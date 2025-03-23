@@ -8,6 +8,13 @@ import de from './locales/de.json';
 import tr from './locales/tr.json';
 import es from './locales/es.json';
 import ar from './locales/ar.json';
+import fr from './locales/fr.json';
+import it from './locales/it.json';
+import ru from './locales/ru.json';
+import zh from './locales/zh.json';
+import ja from './locales/ja.json';
+
+
 
 i18n
   .use(LanguageDetector) // <--- Sprache erkennen
@@ -18,7 +25,12 @@ i18n
       de: { translation: de },
       tr: { translation: tr },
       es: { translation: es },
-      ar: { translation: ar }
+      ar: { translation: ar },
+      fr: { translation: fr },
+      it: { translation: it },
+      ru: { translation: ru },
+      zh: { translation: zh },
+      ja: { translation: ja }
     },
     fallbackLng: 'en', // Falls Sprache nicht unterstützt wird
     interpolation: {

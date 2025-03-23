@@ -3,12 +3,12 @@
     "title": "Sobre mí",
     "alt": "Foto de perfil de Marcos Ilgi",
     "nameLabel": "Nombre",
-    "positionLabel": "Posición",
+    "positionLabel": "Cargo",
     "position": "Fundador y desarrollador de lni.design",
     "locationLabel": "Ubicación",
     "location": "Colonia, Alemania",
     "languagesLabel": "Idiomas",
-    "languages": "Alemán, Inglés, Turco, Español (básico)",
+    "languages": "Alemán, Inglés, Turco, Español (nivel básico)",
     "technologiesLabel": "Tecnologías",
     "technologies": "HTML, CSS, JS, React, Node.js, PostgreSQL, Supabase, PHP, Python",
     "focusLabel": "Enfoque",
@@ -16,38 +16,64 @@
   },
   "inspiration": {
     "title": "Inspiración",
-    "text": "Encuentro mi inspiración en la conexión entre tecnología, diseño y estrategia. Para mí no se trata solo de interfaces bonitas, sino de sistemas bien pensados que generen resultados reales."
+    "text": "Mi inspiración proviene de la conexión entre tecnología, diseño y estrategia. Para mí, no se trata solo de interfaces bonitas, sino de sistemas bien pensados que generan resultados."
   },
   "skills": {
     "title": "Habilidades",
     "stackLabel": "Stack y herramientas",
     "stack": "HTML, CSS, JavaScript, React, Node.js, Express, Vite, PostgreSQL, Supabase, Firebase, Laravel, Django",
     "otherLabel": "Otras habilidades",
-    "other": "UI/UX, desarrollo de CI, estrategia de contenidos, arquitectura de CMS/CRM, automatización",
+    "other": "UI/UX, desarrollo de identidad corporativa, estrategia de contenidos, arquitectura CMS/CRM, automatización",
     "languagesLabel": "Idiomas",
-    "languages": "Alemán, Inglés, Turco, Español (básico)"
+    "languages": "Alemán, Inglés, Turco, Español (nivel básico)"
   },
   "projects": {
     "title": "Proyectos",
-    "lnidesign": "Agencia creativa internacional centrada en diseño, IT y eventos. Herramientas: lni.models, lni.booking",
-    "chens29": "Plataforma de venta de camisetas — minimalista, eficaz, creada con React + Stripe",
+    "lnidesign": "Agencia creativa internacional enfocada en diseño, TI y eventos. Herramientas: lni.models, lni.booking",
+    "chens29": "Plataforma de venta de camisetas – minimalista, efectiva, construida con React + Stripe",
     "sheherazade": "Plataforma de reservas multilingüe para cruceros fluviales halal",
-    "tolearnlist": "Plataforma de aprendizaje con IA basada en sistemas de conocimiento gráfico"
+    "tolearnlist": "Plataforma de aprendizaje con IA y sistema de conocimiento basado en gráficos"
   },
   "philosophy": {
     "title": "Filosofía de vida",
-    "text": "Trabajo de manera eficiente, orientada a soluciones y con una línea clara. Nada de complicaciones innecesarias — solo sistemas que funcionan. No me veo como un proveedor de servicios, sino como un socio estratégico al mismo nivel."
+    "text": "Trabajo de forma eficiente, orientado a soluciones y con una línea clara. Nada de ingeniería excesiva – solo sistemas que funcionan. No me veo como proveedor, sino como un socio estratégico en igualdad de condiciones."
   },
   "vision": {
-    "title": "Visión y objetivos",
-    "text": "Desarrollo sistemas escalables que aportan verdadero valor — no modas pasajeras, sino impacto duradero. La tecnología es para mí un medio, no un fin. El objetivo es generar resultados con sentido."
+    "title": "Visiones y objetivos",
+    "text": "Desarrollo sistemas escalables que generan un valor real – no por tendencias, sino con utilidad a largo plazo. La tecnología es un medio, no un fin. El fin es el impacto."
   },
   "cta": {
     "title": "¿Listo para tu próximo proyecto?",
-    "text": "Creamos algo grandioso juntos.",
-    "button": "Solicitar un proyecto",
+    "text": "Construyamos algo increíble juntos.",
+    "button": "Solicitar proyecto",
     "github": "👉 Ver mis proyectos en GitHub",
     "whatsapp": "WhatsApp",
     "call": "☎️ Llamar"
+  },
+  "register": {
+    "welcome": "Bienvenido",
+    "subscribe": "Regístrate",
+    "language": "Seleccionar idioma:"
+  },
+  "auth-form": {
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "login": "Iniciar sesión",
+    "register": "Registrarse",
+    "google": "Iniciar sesión con Google",
+    "or": "o",
+    "github": "Iniciar sesión con GitHub"
+  },
+  "lang": {
+    "de": "Alemán",
+    "en": "Inglés",
+    "tr": "Turco",
+    "es": "Español",
+    "fr": "Francés",
+    "it": "Italiano",
+    "ru": "Ruso",
+    "ar": "Árabe",
+    "zh": "Chino",
+    "ja": "Japonés"
   }
 }

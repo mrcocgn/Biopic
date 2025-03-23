@@ -1,0 +1,80 @@
+{
+    "profile": {
+      "title": "Chi sono",
+      "alt": "Foto profilo di Marcos Ilgi",
+      "nameLabel": "Nome",
+      "positionLabel": "Ruolo",
+      "position": "Fondatore e sviluppatore di lni.design",
+      "locationLabel": "Posizione",
+      "location": "Colonia, Germania",
+      "languagesLabel": "Lingue",
+      "languages": "Tedesco, Inglese, Turco, Spagnolo (base)",
+      "technologiesLabel": "Tecnologie",
+      "technologies": "HTML, CSS, JS, React, Node.js, PostgreSQL, Supabase, PHP, Python",
+      "focusLabel": "Focus",
+      "focus": "Sviluppo web, strategia del brand, automazione, business design"
+    },
+    "inspiration": {
+      "title": "Ispirazione",
+      "text": "Traggo ispirazione dalla connessione tra tecnologia, design e strategia. Per me non si tratta solo di belle interfacce, ma di sistemi ben progettati che producono risultati."
+    },
+    "skills": {
+      "title": "Competenze",
+      "stackLabel": "Stack e strumenti",
+      "stack": "HTML, CSS, JavaScript, React, Node.js, Express, Vite, PostgreSQL, Supabase, Firebase, Laravel, Django",
+      "otherLabel": "Altre competenze",
+      "other": "UI/UX, sviluppo CI, strategia dei contenuti, architettura CMS/CRM, automazione",
+      "languagesLabel": "Lingue",
+      "languages": "Tedesco, Inglese, Turco, Spagnolo (base)"
+    },
+    "projects": {
+      "title": "Progetti",
+      "lnidesign": "Agenzia creativa internazionale focalizzata su design, IT ed eventi. Strumenti: lni.models, lni.booking",
+      "chens29": "Piattaforma di vendita di t-shirt – minimalista, efficace, realizzata con React + Stripe",
+      "sheherazade": "Piattaforma di prenotazione multilingue per crociere fluviali conformi alla halal",
+      "tolearnlist": "Piattaforma di apprendimento basata su IA con sistema di conoscenza a grafo"
+    },
+    "philosophy": {
+      "title": "Filosofia di vita",
+      "text": "Lavoro in modo efficiente, orientato alle soluzioni e con una linea chiara. Niente overengineering – solo sistemi che funzionano. Non mi vedo come fornitore di servizi, ma come partner strategico sullo stesso livello."
+    },
+    "vision": {
+      "title": "Visioni e obiettivi",
+      "text": "Sviluppo sistemi scalabili che creano valore reale – non per seguire le tendenze, ma per un beneficio a lungo termine. La tecnologia è un mezzo. Lo scopo è l’impatto."
+    },
+    "cta": {
+      "title": "Pronto per il tuo prossimo progetto?",
+      "text": "Creiamo qualcosa di straordinario insieme.",
+      "button": "Richiedi progetto",
+      "github": "👉 Guarda i miei progetti su GitHub",
+      "whatsapp": "WhatsApp",
+      "call": "☎️ Chiama"
+    },
+    "register": {
+      "welcome": "Benvenuto",
+      "subscribe": "Registrati",
+      "language": "Seleziona lingua:"
+    },
+    "auth-form": {
+      "email": "Email",
+      "password": "Password",
+      "login": "Accedi",
+      "register": "Registrati",
+      "google": "Accedi con Google",
+      "or": "oppure",
+      "github": "Accedi con GitHub"
+    },
+    "lang": {
+      "de": "Tedesco",
+      "en": "Inglese",
+      "tr": "Turco",
+      "es": "Spagnolo",
+      "fr": "Francese",
+      "it": "Italiano",
+      "ru": "Russo",
+      "ar": "Arabo",
+      "zh": "Cinese",
+      "ja": "Giapponese"
+    }
+  }
+  

@@ -42,11 +42,16 @@ export default function RegistryPanel() {
               <div className="language-select">
                 <label htmlFor="lang">{t("register.language")}</label>
                 <select id="lang">
-                  <option value="en">English</option>
-                  <option value="de">Deutsch</option>
-                  <option value="tr">Türkçe</option>
-                  <option value="es">Español</option>
-                  <option value="ar">عربي</option>
+                  <option value="en">{t("lang.en")}</option>
+                  <option value="de">{t("lang.de")}</option>
+                  <option value="tr">{t("lang.tr")}</option>
+                  <option value="es">{t("lang.es")}</option>
+                  <option value="ar">{t("lang.ar")}</option>
+                  <option value="fr">{t("lang.fr")}</option>
+                  <option value="it">{t("lang.it")}</option>
+                  <option value="ru">{t("lang.ru")}</option>
+                  <option value="zh">{t("lang.zh")}</option>
+                  <option value="ja">{t("lang.ja")}</option>
                 </select>
               </div>
             </div>

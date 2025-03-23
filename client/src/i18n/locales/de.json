@@ -63,5 +63,17 @@
     "google": "Mit Google anmelden",
     "or": "oder",
     "github": "Mit GitHub anmelden"
+  },
+  "lang": {
+    "de": "Deutsch",
+    "en": "Englisch",
+    "tr": "Türkisch",
+    "es": "Spanisch",
+    "fr": "Französisch",
+    "it": "Italienisch",
+    "ru": "Russisch",
+    "ar": "Arabisch",
+    "zh": "Chinesisch",
+    "ja": "Japanisch"
   }
 }

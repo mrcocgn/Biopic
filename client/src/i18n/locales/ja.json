@@ -1,0 +1,80 @@
+{
+    "profile": {
+      "title": "私について",
+      "alt": "Marcos Ilgi のプロフィール写真",
+      "nameLabel": "名前",
+      "positionLabel": "役職",
+      "position": "lni.design の創設者兼開発者",
+      "locationLabel": "所在地",
+      "location": "ドイツ・ケルン",
+      "languagesLabel": "言語",
+      "languages": "ドイツ語、英語、トルコ語、スペイン語（初級）",
+      "technologiesLabel": "技術",
+      "technologies": "HTML、CSS、JS、React、Node.js、PostgreSQL、Supabase、PHP、Python",
+      "focusLabel": "主な分野",
+      "focus": "ウェブ開発、ブランディング戦略、自動化、ビジネスデザイン"
+    },
+    "inspiration": {
+      "title": "インスピレーション",
+      "text": "私のインスピレーションは、テクノロジー、デザイン、戦略の融合から生まれます。美しいUIだけでなく、成果を出すための緻密なシステムが重要だと考えています。"
+    },
+    "skills": {
+      "title": "スキル",
+      "stackLabel": "スタックとツール",
+      "stack": "HTML、CSS、JavaScript、React、Node.js、Express、Vite、PostgreSQL、Supabase、Firebase、Laravel、Django",
+      "otherLabel": "その他のスキル",
+      "other": "UI/UX、CI 開発、コンテンツ戦略、CMS/CRM アーキテクチャ、自動化",
+      "languagesLabel": "言語",
+      "languages": "ドイツ語、英語、トルコ語、スペイン語（初級）"
+    },
+    "projects": {
+      "title": "プロジェクト",
+      "lnidesign": "デザイン、IT、イベントに特化した国際的なクリエイティブエージェンシー。ツール：lni.models、lni.booking",
+      "chens29": "Tシャツ販売プラットフォーム – ミニマルで効果的、React + Stripe による構築",
+      "sheherazade": "ハラール対応のリバークルーズの多言語予約プラットフォーム",
+      "tolearnlist": "グラフベースの知識システムを備えたAI学習プラットフォーム"
+    },
+    "philosophy": {
+      "title": "人生哲学",
+      "text": "私は効率的に、解決志向で、明確な方針を持って働いています。過剰な設計は避け、機能するシステムを目指します。私は単なるサービス提供者ではなく、対等な立場の戦略的パートナーです。"
+    },
+    "vision": {
+      "title": "ビジョンと目標",
+      "text": "私は、トレンドのためではなく、長期的な価値のために、本当に意味のあるスケーラブルなシステムを開発します。テクノロジーは手段であり、目的はインパクトです。"
+    },
+    "cta": {
+      "title": "次のプロジェクトの準備はできていますか？",
+      "text": "一緒に素晴らしいものを作りましょう。",
+      "button": "プロジェクトを依頼する",
+      "github": "👉 GitHubで私のプロジェクトを見る",
+      "whatsapp": "WhatsApp",
+      "call": "☎️ 電話する"
+    },
+    "register": {
+      "welcome": "ようこそ",
+      "subscribe": "登録する",
+      "language": "言語を選択："
+    },
+    "auth-form": {
+      "email": "メールアドレス",
+      "password": "パスワード",
+      "login": "ログイン",
+      "register": "登録",
+      "google": "Googleでログイン",
+      "or": "または",
+      "github": "GitHubでログイン"
+    },
+    "lang": {
+      "de": "ドイツ語",
+      "en": "英語",
+      "tr": "トルコ語",
+      "es": "スペイン語",
+      "fr": "フランス語",
+      "it": "イタリア語",
+      "ru": "ロシア語",
+      "ar": "アラビア語",
+      "zh": "中国語",
+      "ja": "日本語"
+    }
+  }
+  

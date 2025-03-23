@@ -1,0 +1,80 @@
+{
+    "profile": {
+      "title": "À propos de moi",
+      "alt": "Photo de profil de Marcos Ilgi",
+      "nameLabel": "Nom",
+      "positionLabel": "Poste",
+      "position": "Fondateur et développeur de lni.design",
+      "locationLabel": "Lieu",
+      "location": "Cologne, Allemagne",
+      "languagesLabel": "Langues",
+      "languages": "Allemand, Anglais, Turc, Espagnol (notions de base)",
+      "technologiesLabel": "Technologies",
+      "technologies": "HTML, CSS, JS, React, Node.js, PostgreSQL, Supabase, PHP, Python",
+      "focusLabel": "Domaine de spécialisation",
+      "focus": "Développement web, stratégie de marque, automatisation, design d'entreprise"
+    },
+    "inspiration": {
+      "title": "Inspiration",
+      "text": "Je tire mon inspiration de l’intersection entre la technologie, le design et la stratégie. Pour moi, il ne s’agit pas seulement de belles interfaces, mais de systèmes bien pensés qui produisent des résultats."
+    },
+    "skills": {
+      "title": "Compétences",
+      "stackLabel": "Stack & Outils",
+      "stack": "HTML, CSS, JavaScript, React, Node.js, Express, Vite, PostgreSQL, Supabase, Firebase, Laravel, Django",
+      "otherLabel": "Autres compétences",
+      "other": "UI/UX, développement d'identité visuelle, stratégie de contenu, architecture CMS/CRM, automatisation",
+      "languagesLabel": "Langues",
+      "languages": "Allemand, Anglais, Turc, Espagnol (notions de base)"
+    },
+    "projects": {
+      "title": "Projets",
+      "lnidesign": "Agence créative internationale axée sur le design, l'informatique et l'événementiel. Outils : lni.models, lni.booking",
+      "chens29": "Plateforme de vente de t-shirts – minimaliste, efficace, construite avec React + Stripe",
+      "sheherazade": "Plateforme de réservation multilingue pour des croisières halal",
+      "tolearnlist": "Plateforme d’apprentissage basée sur l’IA avec un système de connaissances en graphe"
+    },
+    "philosophy": {
+      "title": "Philosophie de vie",
+      "text": "Je travaille de manière efficace, orientée vers les solutions et avec une ligne directrice claire. Pas de sur-ingénierie – seulement des systèmes qui fonctionnent. Je ne me considère pas comme un prestataire, mais comme un partenaire stratégique à égalité."
+    },
+    "vision": {
+      "title": "Vision & Objectifs",
+      "text": "Je développe des systèmes évolutifs qui créent une véritable valeur – pas pour suivre les tendances, mais pour une utilité durable. Pour moi, la technologie est un moyen. Le but, c’est l’impact."
+    },
+    "cta": {
+      "title": "Prêt pour ton prochain projet ?",
+      "text": "Construisons quelque chose de formidable ensemble.",
+      "button": "Demander un projet",
+      "github": "👉 Voir mes projets sur GitHub",
+      "whatsapp": "WhatsApp",
+      "call": "☎️ Appeler"
+    },
+    "register": {
+      "welcome": "Bienvenue",
+      "subscribe": "S'inscrire",
+      "language": "Choisir la langue :"
+    },
+    "auth-form": {
+      "email": "E-mail",
+      "password": "Mot de passe",
+      "login": "Connexion",
+      "register": "S'inscrire",
+      "google": "Se connecter avec Google",
+      "or": "ou",
+      "github": "Se connecter avec GitHub"
+    },
+    "lang": {
+      "de": "Allemand",
+      "en": "Anglais",
+      "tr": "Turc",
+      "es": "Espagnol",
+      "fr": "Français",
+      "it": "Italien",
+      "ru": "Russe",
+      "ar": "Arabe",
+      "zh": "Chinois",
+      "ja": "Japonais"
+    }
+  }
+  

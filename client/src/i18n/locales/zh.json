@@ -1,0 +1,80 @@
+{
+    "profile": {
+      "title": "关于我",
+      "alt": "Marcos Ilgi 的个人头像",
+      "nameLabel": "姓名",
+      "positionLabel": "职位",
+      "position": "lni.design 的创始人兼开发者",
+      "locationLabel": "位置",
+      "location": "德国科隆",
+      "languagesLabel": "语言",
+      "languages": "德语、英语、土耳其语、西班牙语（基础）",
+      "technologiesLabel": "技术",
+      "technologies": "HTML、CSS、JS、React、Node.js、PostgreSQL、Supabase、PHP、Python",
+      "focusLabel": "专注领域",
+      "focus": "网页开发、品牌战略、自动化、商业设计"
+    },
+    "inspiration": {
+      "title": "灵感来源",
+      "text": "我的灵感来自科技、设计与战略的结合。对我而言，重要的不只是美观的界面，而是能够带来成果的系统。"
+    },
+    "skills": {
+      "title": "技能",
+      "stackLabel": "技术栈与工具",
+      "stack": "HTML、CSS、JavaScript、React、Node.js、Express、Vite、PostgreSQL、Supabase、Firebase、Laravel、Django",
+      "otherLabel": "其他技能",
+      "other": "UI/UX、品牌识别设计、内容策略、CMS/CRM 架构、自动化",
+      "languagesLabel": "语言",
+      "languages": "德语、英语、土耳其语、西班牙语（基础）"
+    },
+    "projects": {
+      "title": "项目",
+      "lnidesign": "一家专注于设计、IT 和活动的国际创意机构。工具：lni.models、lni.booking",
+      "chens29": "T恤销售平台 —— 极简、高效，基于 React + Stripe 构建",
+      "sheherazade": "支持多语言的清真河轮预订平台",
+      "tolearnlist": "基于 AI 的学习平台，采用图形化知识系统"
+    },
+    "philosophy": {
+      "title": "人生理念",
+      "text": "我注重高效、以解决方案为导向，并坚持清晰的思路。不追求过度设计，而是开发真正能运作的系统。我不是传统意义上的服务提供者，而是与你并肩作战的战略伙伴。"
+    },
+    "vision": {
+      "title": "愿景与目标",
+      "text": "我致力于开发可扩展的系统，创造真正的价值——不是为了追随潮流，而是为长远利益服务。技术只是手段，真正的目的在于产生影响。"
+    },
+    "cta": {
+      "title": "准备好开始你的下一个项目了吗？",
+      "text": "让我们一起创造伟大的东西。",
+      "button": "申请项目",
+      "github": "👉 查看我在 GitHub 上的项目",
+      "whatsapp": "WhatsApp",
+      "call": "☎️ 拨打电话"
+    },
+    "register": {
+      "welcome": "欢迎",
+      "subscribe": "注册",
+      "language": "选择语言："
+    },
+    "auth-form": {
+      "email": "电子邮箱",
+      "password": "密码",
+      "login": "登录",
+      "register": "注册",
+      "google": "使用 Google 登录",
+      "or": "或",
+      "github": "使用 GitHub 登录"
+    },
+    "lang": {
+      "de": "德语",
+      "en": "英语",
+      "tr": "土耳其语",
+      "es": "西班牙语",
+      "fr": "法语",
+      "it": "意大利语",
+      "ru": "俄语",
+      "ar": "阿拉伯语",
+      "zh": "中文",
+      "ja": "日语"
+    }
+  }
+  

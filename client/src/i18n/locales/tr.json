@@ -4,23 +4,23 @@
     "alt": "Marcos Ilgi'nin profil fotoğrafı",
     "nameLabel": "İsim",
     "positionLabel": "Pozisyon",
-    "position": "lni.design'in kurucusu ve geliştiricisi",
+    "position": "lni.design'in Kurucusu ve Geliştiricisi",
     "locationLabel": "Konum",
     "location": "Köln, Almanya",
     "languagesLabel": "Diller",
     "languages": "Almanca, İngilizce, Türkçe, İspanyolca (temel)",
     "technologiesLabel": "Teknolojiler",
     "technologies": "HTML, CSS, JS, React, Node.js, PostgreSQL, Supabase, PHP, Python",
-    "focusLabel": "Odak",
+    "focusLabel": "Odak Alanı",
     "focus": "Web geliştirme, marka stratejisi, otomasyon, iş tasarımı"
   },
   "inspiration": {
-    "title": "İlham",
-    "text": "İlhamımı teknoloji, tasarım ve stratejinin birleşiminden alıyorum. Benim için mesele sadece estetik arayüzler değil — aynı zamanda sonuç odaklı, iyi düşünülmüş sistemlerdir."
+    "title": "İlham Kaynağım",
+    "text": "İlhamımı teknoloji, tasarım ve stratejinin birleşiminden alıyorum. Benim için sadece güzel arayüzler değil – sonuç odaklı, düşünülmüş sistemler önemlidir."
   },
   "skills": {
     "title": "Yetenekler",
-    "stackLabel": "Stack ve Araçlar",
+    "stackLabel": "Stack & Araçlar",
     "stack": "HTML, CSS, JavaScript, React, Node.js, Express, Vite, PostgreSQL, Supabase, Firebase, Laravel, Django",
     "otherLabel": "Diğer Yetenekler",
     "other": "UI/UX, kurumsal kimlik geliştirme, içerik stratejisi, CMS/CRM mimarisi, otomasyon",
@@ -29,25 +29,51 @@
   },
   "projects": {
     "title": "Projeler",
-    "lnidesign": "Tasarım, bilişim ve etkinliklere odaklanan uluslararası yaratıcı ajans. Araçlar: lni.models, lni.booking",
-    "chens29": "Tişört satış platformu – minimalist, verimli, React + Stripe ile geliştirildi",
-    "sheherazade": "Helal konseptli nehir turları için çok dilli rezervasyon platformu",
-    "tolearnlist": "Graf tabanlı bilgi sistemiyle çalışan yapay zeka destekli öğrenme platformu"
+    "lnidesign": "Tasarım, bilişim ve etkinlik odaklı uluslararası yaratıcı ajans. Araçlar: lni.models, lni.booking",
+    "chens29": "Tişört satış platformu – minimalist, etkili, React + Stripe ile geliştirilmiş",
+    "sheherazade": "Helal uyumlu nehir turları için çok dilli rezervasyon platformu",
+    "tolearnlist": "Graf tabanlı bilgi sistemiyle yapay zekaya dayalı öğrenme platformu"
   },
   "philosophy": {
-    "title": "Hayat Felsefesi",
-    "text": "Verimli, çözüm odaklı ve net bir yaklaşımla çalışırım. Fazlalığa yer yok — sadece işe yarayan sistemler. Kendimi bir hizmet sağlayıcı olarak değil, stratejik bir ortak olarak görüyorum."
+    "title": "Hayat Felsefem",
+    "text": "Verimli, çözüm odaklı ve net bir çizgide çalışırım. Aşırı mühendislik değil – çalışan sistemler. Kendimi bir hizmet sağlayıcı olarak değil, eşit düzeyde stratejik bir ortak olarak görüyorum."
   },
   "vision": {
     "title": "Vizyon & Hedefler",
-    "text": "Gerçek değer yaratan, ölçeklenebilir sistemler geliştiriyorum — trendler için değil, sürdürülebilir etki için. Teknoloji benim için sadece bir araçtır. Amaç: anlamlı sonuçlar üretmek."
+    "text": "Gerçek değer yaratan, ölçeklenebilir sistemler geliştiriyorum – trendler için değil, uzun vadeli fayda için. Teknoloji benim için bir araçtır. Amaç ise etkidir."
   },
   "cta": {
     "title": "Yeni projen için hazır mısın?",
-    "text": "Haydi birlikte harika bir şey yaratalım.",
+    "text": "Haydi birlikte harika bir şey başlatalım.",
     "button": "Proje talep et",
-    "github": "👉 GitHub projelerimi incele",
+    "github": "👉 GitHub'daki projelerime göz at",
     "whatsapp": "WhatsApp",
     "call": "☎️ Ara"
+  },
+  "register": {
+    "welcome": "Hoş geldin",
+    "subscribe": "Kayıt ol",
+    "language": "Dil seç:"
+  },
+  "auth-form": {
+    "email": "E-posta",
+    "password": "Şifre",
+    "login": "Giriş yap",
+    "register": "Kayıt ol",
+    "google": "Google ile giriş yap",
+    "or": "veya",
+    "github": "GitHub ile giriş yap"
+  },
+  "lang": {
+    "de": "Almanca",
+    "en": "İngilizce",
+    "tr": "Türkçe",
+    "es": "İspanyolca",
+    "fr": "Fransızca",
+    "it": "İtalyanca",
+    "ru": "Rusça",
+    "ar": "Arapça",
+    "zh": "Çince",
+    "ja": "Japonca"
   }
 }
