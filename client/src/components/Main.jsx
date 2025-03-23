@@ -131,7 +131,7 @@ function Main() {
           </a>
 
           <a
-            href="https://wa.me/4917612345678?text=Hallo%20Marcos%2C%20ich%20interessiere%20mich%20f%C3%BCr%20dein%20Portfolio."
+            href="https://wa.me/4917635116234?text=Hallo%20Marcos%2C%20ich%20interessiere%20mich%20f%C3%BCr%20dein%20Portfolio."
             target="_blank"
             rel="noopener noreferrer"
             className="cta-button whatsapp"
@@ -139,7 +139,7 @@ function Main() {
             📲 WhatsApp
           </a>
 
-          <a href="tel:+4917612345678" className="cta-button phone">
+          <a href="tel:+4917635116234" className="cta-button phone">
             ☎️ Anrufen
           </a>
         </div>
