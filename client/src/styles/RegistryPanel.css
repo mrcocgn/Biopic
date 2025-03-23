@@ -1,5 +1,7 @@
 .registry-toggle {
-  position: relative;
+  position: fixed;
+  top: 0;
+  right: 0;
   background-color: transparent;
   color: #2f855a;
   border: none;
