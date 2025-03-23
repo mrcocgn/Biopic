@@ -38,6 +38,8 @@ export default function RegistryPanel() {
               <h2>{t("register.welcome")}</h2>
               <p>{t("register.subscribe")}</p>
               <AuthForm />
+              <br />
+              <br />
               <div className="language-select">
                 <label htmlFor="lang">{t("register.language")}</label>
                 <select id="lang">
