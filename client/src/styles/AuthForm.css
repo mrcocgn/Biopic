@@ -1,0 +1,53 @@
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    padding: 2rem 0;
+  }
+  
+  .auth-form input {
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    transition: border-color 0.2s ease;
+  }
+  
+  .auth-form input:focus {
+    border-color: #4fd1c5; /* Light green aqua */
+    outline: none;
+  }
+  
+  .auth-form button {
+    background-color: #2f855a; /* LNI Lightgreen */
+    color: white;
+    font-size: 1rem;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .auth-form button:hover {
+    background-color: #276749; /* Darker green */
+  }
+  
+  .auth-form .oauth-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    margin-top: 1.5rem;
+  }
+  
+  .auth-form .oauth-buttons button {
+    background-color: #edf2f7; /* Light gray */
+    color: #333;
+    border: 1px solid #ccc;
+    font-weight: 500;
+  }
+  
+  .auth-form .oauth-buttons button:hover {
+    background-color: #e2e8f0;
+  }
+  

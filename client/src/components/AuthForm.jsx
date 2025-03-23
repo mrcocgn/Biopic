@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import { supabase } from '../lib/supabaseClient'
+import '../styles/AuthForm.css'
+
 
 export default function AuthForm() {
   const [email, setEmail] = useState('')
@@ -42,7 +44,7 @@ export default function AuthForm() {
 
   return (
     <div>
-      <form onSubmit={handleEmailSignIn}>
+      <form className="auth-form" onSubmit={handleEmailSignIn}>
         <input
           type="email"
           placeholder="E-Mail"
@@ -60,9 +62,11 @@ export default function AuthForm() {
         <button type="submit">Einloggen</button>
         <button onClick={handleEmailSignUp}>Registrieren</button>
       </form>
+      <div className="oauth-buttons">
       <button onClick={() => handleOAuthSignIn('google')}>Mit Google einloggen</button>
       <button onClick={() => handleOAuthSignIn('github')}>Mit GitHub einloggen</button>
       <button onClick={() => handleOAuthSignIn('instagram')}>Mit Instagram einloggen</button>
+      </div>
     </div>
   )
 }
