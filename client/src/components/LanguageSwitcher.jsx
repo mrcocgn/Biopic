@@ -1,4 +1,4 @@
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from 'react-i18n';
 import { useEffect, useState } from 'react';
 import '../index.css';
 
